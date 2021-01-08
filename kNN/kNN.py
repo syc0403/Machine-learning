@@ -40,7 +40,7 @@ def classify0(inX, dataSet, labels, k):
 
 
 def file2Matrix(filename):
-    fr = open(filename, 'r')
+    fr = open(filename)
     arrayOLines = fr.readlines()
     # 得到文件行数
     numberOfLines = len(arrayOLines)
