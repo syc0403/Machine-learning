@@ -6,7 +6,7 @@
     {
     "label": "python",
     "type": "shell",
-    //command的后面的参数是：python的安装路径/python
+    //command的后面的参数是：python的安装路径
     "command": "D:\\Anaconda3\\python.exe",         
     "args": [
     "${file}"
